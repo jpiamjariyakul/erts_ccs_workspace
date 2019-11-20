@@ -106,7 +106,7 @@ void PORT4_IRQHandler(void){
       //         please figure out the other bump switches)
       switch(status){
 
-        case 0x00: // Bump switch 1
+        case 0x02: // Bump switch 1
 
             // Change the coloured LED into green (backward)
 
@@ -125,7 +125,7 @@ void PORT4_IRQHandler(void){
             // Stop for 1000ms
 
           break;
-        case 0x00: // Bump switch 2
+        case 0x06: // Bump switch 2
 
             // Change the coloured LED into green (backward)
 
@@ -163,7 +163,7 @@ void PORT4_IRQHandler(void){
             // Stop for 1000ms
 
           break;
-        case 0x00: // Bump switch 4
+        case 0x0C: // Bump switch 4
 
             // Change the coloured LED into green (backward)
 
@@ -182,7 +182,7 @@ void PORT4_IRQHandler(void){
             // Stop for 1000ms
 
           break;
-        case 0x00: // Bump switch 5
+        case 0x0E: // Bump switch 5
 
             // Change the coloured LED into green (backward)
 
@@ -201,7 +201,7 @@ void PORT4_IRQHandler(void){
             // Stop for 1000ms
 
           break;
-        case 0x00: // Bump switch 6
+        case 0x10: // Bump switch 6
 
             // Change the coloured LED into green (backward)
 
@@ -347,12 +347,12 @@ int main(void){
     __no_operation();       // the code will run without operation
 
     // This section is used for Example 2 (section 5.8.2)
-    /*
+
         status = Bump_Read_Input();
         if (status == 0x6D || status == 0xAD || status == 0xCD || status == 0xE5 || status == 0xE9 || status == 0xEC) {
             checkbumpswitch(status);
         }
-    */
+
 
     // This section is used for Example 3 (section 5.8.3)
         // Move forward with 500 duty but can run with any number for time_ms,

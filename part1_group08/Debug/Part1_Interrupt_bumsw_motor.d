@@ -16,10 +16,6 @@ Part1_Interrupt_bumsw_motor.obj: C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS/core
 Part1_Interrupt_bumsw_motor.obj: C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS/cmsis_compiler.h
 Part1_Interrupt_bumsw_motor.obj: C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS/cmsis_ccs.h
 Part1_Interrupt_bumsw_motor.obj: C:/TI/ccs/ccsv8/ccs_base/arm/include/system_msp432p401r.h
-Part1_Interrupt_bumsw_motor.obj: .././inc/Clock.h
-Part1_Interrupt_bumsw_motor.obj: .././inc/SysTick.h
-Part1_Interrupt_bumsw_motor.obj: .././inc/CortexM.h
-Part1_Interrupt_bumsw_motor.obj: .././inc/motor.h
 
 ../Part1_Interrupt_bumsw_motor.c: 
 C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdint.h: 
@@ -37,7 +33,3 @@ C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS/core_cm4.h:
 C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS/cmsis_compiler.h: 
 C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS/cmsis_ccs.h: 
 C:/TI/ccs/ccsv8/ccs_base/arm/include/system_msp432p401r.h: 
-.././inc/Clock.h: 
-.././inc/SysTick.h: 
-.././inc/CortexM.h: 
-.././inc/motor.h: 
