@@ -340,7 +340,7 @@ int main(void){
 
   EnableInterrupts();       // Clear the I bit
 
-  //  Run forever
+  // Run forever
   while(1){
 
     // This section is used for Example 1 (seciton 5.8.1)
