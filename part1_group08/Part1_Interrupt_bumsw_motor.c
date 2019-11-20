@@ -30,6 +30,7 @@ policies, either expressed or implied, of the FreeBSD Project.
 // Function:    Part 1 of ERTS, uses interrupt for bump switches to control the motor
 
 #include <stdint.h>
+#include <stdio.h>
 #include "msp.h"
 
 // Check these if you really need to include these libraries in your code
@@ -247,7 +248,7 @@ void checkbumpswitch(uint8_t status)
 			//case 0x02: // Bump switch 1 (for interrupt vector)
 				case 0x6D: // Bump 1
 					Motor_BackwardSimple(500, 100); 	// Move backward at 500 duty for 200ms
-
+					printf("Bump 1\n");
 				break;
 			//case 0x06: // Bump switch 2 (for interrupt vector)
 				case 0xAD: // Bump 2
@@ -334,6 +335,7 @@ int main(void){
 
 		EnableInterrupts();       // Clear the I bit
 
+		printf("inside main\n");
 		// Run forever
 		while(1){
 
