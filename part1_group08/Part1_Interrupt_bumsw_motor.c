@@ -77,7 +77,7 @@ void BumpEdgeTrigger_Init(void) {
     NVIC -> ISER[1] = 0x00000040;
 }
 
-int sw_cur = 0;
+int mode_current = 0;
 // Uses P4IV IRQ handler to solve critical section/race
 void PORT4_IRQHandler(void) {
 
@@ -108,7 +108,7 @@ void PORT4_IRQHandler(void) {
     switch (status) {
 
     case 0x02: // Bump switch 1
-        if (sw_cur == 2) {
+        if (mode_current == 2) {
             // Change the coloured LED into green (backward)
             Port2_Output(GREEN);
             // Move backward at 500 duty for 200ms
@@ -127,13 +127,13 @@ void PORT4_IRQHandler(void) {
             // Stop for 1000ms
             Motor_StopSimple(100);
         }
-        else if (sw_cur == 1) {
+        else if (mode_current == 1) {
             Motor_StopSimple(1000);
         }
         break;
 
     case 0x06: // Bump switch 2
-        if (sw_cur == 2) {
+        if (mode_current == 2) {
             // Change the coloured LED into green (backward)
             Port2_Output(GREEN);
             // Move backward at 500 duty for 200ms
@@ -151,13 +151,13 @@ void PORT4_IRQHandler(void) {
             // Stop for 1000ms
             Motor_StopSimple(100);
         }
-        else if (sw_cur == 1) {
+        else if (mode_current == 1) {
             Motor_StopSimple(1000);
         }
         break;
 
     case 0x08: // Bump switch 3
-        if (sw_cur == 2) {
+        if (mode_current == 2) {
             // Change the coloured LED into green (backward)
             Port2_Output(GREEN);
             // Move backward at 500 duty for 200ms
@@ -175,13 +175,13 @@ void PORT4_IRQHandler(void) {
             // Stop for 1000ms
             Motor_StopSimple(100);
         }
-        else if (sw_cur == 1) {
+        else if (mode_current == 1) {
             Motor_StopSimple(1000);
         }
         break;
 
     case 0x0C: // Bump switch 4
-        if (sw_cur == 2) {
+        if (mode_current == 2) {
             // Change the coloured LED into green (backward)
             Port2_Output(GREEN);
             // Move backward at 500 duty for 200ms
@@ -199,13 +199,13 @@ void PORT4_IRQHandler(void) {
             // Stop for 1000ms
             Motor_StopSimple(100);
         }
-        else if (sw_cur == 1) {
+        else if (mode_current == 1) {
             Motor_StopSimple(1000);
         }
         break;
 
     case 0x0E: // Bump switch 5
-        if (sw_cur == 2) {
+        if (mode_current == 2) {
             // Change the coloured LED into green (backward)
             Port2_Output(GREEN);
             // Move backward at 500 duty for 200ms
@@ -223,13 +223,13 @@ void PORT4_IRQHandler(void) {
             // Stop for 1000ms
             Motor_StopSimple(100);
         }
-        else if (sw_cur == 1) {
+        else if (mode_current == 1) {
             Motor_StopSimple(1000);
         }
         break;
 
     case 0x10: // Bump switch 6
-        if (sw_cur == 2) {
+        if (mode_current == 2) {
             // Change the coloured LED into green (backward)
             Port2_Output(GREEN);
             // Move backward at 500 duty for 200ms
@@ -247,7 +247,7 @@ void PORT4_IRQHandler(void) {
             // Stop for 1000ms
             Motor_StopSimple(100);
         }
-        else if (sw_cur == 1) {
+        else if (mode_current == 1) {
             Motor_StopSimple(1000);
         }
         break;
@@ -285,7 +285,7 @@ void checkbumpswitch(uint8_t status) {
             //Motor_StopSimple(1000);
             //Motor_StopSimple(1000);
             // Move backward at 500 duty for 200ms
-            if (sw_cur == 2) {
+            if (mode_current == 2) {
                 // Move backward at 500 duty for 200ms
                 Motor_BackwardSimple(500, 200);
                 // Stop for 1000ms
@@ -295,14 +295,14 @@ void checkbumpswitch(uint8_t status) {
                 // Stop for 1000ms
                 Motor_StopSimple(100);
             }
-            else if (sw_cur == 1) {
+            else if (mode_current == 1) {
                 Motor_StopSimple(1000);
             }
             break;
 
         //case 0x06: // Bump switch 2 (for interrupt vector)
         case 0xAD: // Bump 2
-            if (sw_cur == 2) {
+            if (mode_current == 2) {
                 // Move backward at 500 duty for 200ms
                 Motor_BackwardSimple(500, 200);
                 // Stop for 1000ms
@@ -312,7 +312,7 @@ void checkbumpswitch(uint8_t status) {
                 // Stop for 1000ms
                 Motor_StopSimple(100);
             }
-            else if (sw_cur == 1) {
+            else if (mode_current == 1) {
                 Motor_StopSimple(1000);
             }
 
@@ -320,7 +320,7 @@ void checkbumpswitch(uint8_t status) {
 
         //case 0x08: // Bump switch 3 (for interrupt vector)
         case 0xCD: // Bump 3
-            if (sw_cur == 2) {
+            if (mode_current == 2) {
                 // Move backward at 500 duty for 200ms
                 Motor_BackwardSimple(500, 200);
                 // Stop for 1000ms
@@ -330,14 +330,14 @@ void checkbumpswitch(uint8_t status) {
                 // Stop for 1000ms
                 Motor_StopSimple(100);
             }
-            else if (sw_cur == 1) {
+            else if (mode_current == 1) {
                 Motor_StopSimple(1000);
             }
             break;
 
         //case 0x0C: // Bump switch 4 (for interrupt vector)
         case 0xE5: // Bump 4
-            if (sw_cur == 2) {
+            if (mode_current == 2) {
                 // Move backward at 500 duty for 200ms
                 Motor_BackwardSimple(500, 200);
                 // Stop for 1000ms
@@ -347,14 +347,14 @@ void checkbumpswitch(uint8_t status) {
                 // Stop for 1000ms
                 Motor_StopSimple(100);
             }
-            else if (sw_cur == 1) {
+            else if (mode_current == 1) {
                 Motor_StopSimple(1000);
             }
             break;
 
         //case 0x0E: // Bump switch 5 (for interrupt vector)
         case 0xE9: // Bump 5
-            if (sw_cur == 2) {
+            if (mode_current == 2) {
                 // Move backward at 500 duty for 200ms
                 Motor_BackwardSimple(500, 200);
                 // Stop for 1000ms
@@ -364,14 +364,14 @@ void checkbumpswitch(uint8_t status) {
                 // Stop for 1000ms
                 Motor_StopSimple(100);
             }
-            else if (sw_cur == 1) {
+            else if (mode_current == 1) {
                 Motor_StopSimple(1000);
             }
             break;
 
         //case 0x10: // Bump switch 6 (for interrupt vector)
         case 0xEC: // Bump 6
-            if (sw_cur == 2) {
+            if (mode_current == 2) {
                 // Move backward at 500 duty for 200ms
                 Motor_BackwardSimple(500, 200);
                 // Stop for 1000ms
@@ -381,7 +381,7 @@ void checkbumpswitch(uint8_t status) {
                 // Stop for 1000ms
                 Motor_StopSimple(100);
             }
-            else if (sw_cur == 1) {
+            else if (mode_current == 1) {
                 Motor_StopSimple(1000);
             }
             break;
@@ -459,7 +459,7 @@ int main(void) {
 
 /*
     if (SW1IN == 1){
-        sw_cur = 1;
+        mode_current = 1;
         DisableInterrupts();
         REDLED = 0; // Turn off the red LED
         BumpEdgeTrigger_Init(); // Initialise bump switches using edge interrupt
@@ -482,7 +482,7 @@ int main(void) {
         }
     }
     else if (SW2IN == 1){
-        sw_cur = 2;
+        mode_current = 2;
         DisableInterrupts(); // Clear the I bit
         REDLED = 0; // Turn off the red LED
         BumpEdgeTrigger_Init(); // Initialise bump switches using edge interrupt
@@ -504,7 +504,7 @@ int main(void) {
 */
 
     if (SW1IN == 1){
-        sw_cur = 1;
+        mode_current = 1;
         EnableInterrupts();
         REDLED = 0; // Turn off the red LED
         BumpEdgeTrigger_Init(); // Initialise bump switches using edge interrupt
@@ -522,7 +522,7 @@ int main(void) {
         }
     }
     else if (SW2IN == 1){
-        sw_cur = 2;
+        mode_current = 2;
         EnableInterrupts(); // Clear the I bit
         REDLED = 0; // Turn off the red LED
         BumpEdgeTrigger_Init(); // Initialise bump switches using edge interrupt
