@@ -460,3 +460,885 @@ Finished building target: "part1_group08.out"
 gmake[1]: 'part1_group08.out' is up to date.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project part1_group08 ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Part1_Interrupt_bumsw_motor.d:19: *** missing separator.  Stop.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project part1_group08 ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../startup_msp432p401r_ccs.c"
+Invoking: ARM Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/part1_group08" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="startup_msp432p401r_ccs.d_raw"  "../startup_msp432p401r_ccs.c"
+Finished building: "../startup_msp432p401r_ccs.c"
+ 
+Building file: "../inc/Clock.c"
+Invoking: ARM Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/part1_group08" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/Clock.d_raw" --obj_directory="inc"  "../inc/Clock.c"
+Finished building: "../inc/Clock.c"
+ 
+Building file: "../Part1_Interrupt_bumsw_motor.c"
+Invoking: ARM Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/part1_group08" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Part1_Interrupt_bumsw_motor.d_raw"  "../Part1_Interrupt_bumsw_motor.c"
+"../Part1_Interrupt_bumsw_motor.c", line 91: warning #225-D: function "Port2_Output" declared implicitly
+"../Part1_Interrupt_bumsw_motor.c", line 94: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../Part1_Interrupt_bumsw_motor.c", line 409: warning #161-D: declaration is incompatible with previous "Port2_Output" (declared at line 91)
+"../Part1_Interrupt_bumsw_motor.c", line 540: warning #1-D: last line of file ends without a newline
+"../Part1_Interrupt_bumsw_motor.c", line 434: warning #179-D: variable "status" was declared but never referenced
+Finished building: "../Part1_Interrupt_bumsw_motor.c"
+ 
+Building file: "../system_msp432p401r.c"
+Invoking: ARM Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/part1_group08" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="system_msp432p401r.d_raw"  "../system_msp432p401r.c"
+"../system_msp432p401r.c", line 156: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../system_msp432p401r.c", line 189: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+Finished building: "../system_msp432p401r.c"
+ 
+Building file: "../inc/CortexM.c"
+Invoking: ARM Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/part1_group08" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/CortexM.d_raw" --obj_directory="inc"  "../inc/CortexM.c"
+Finished building: "../inc/CortexM.c"
+ 
+Building file: "../inc/SysTick.c"
+Invoking: ARM Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/part1_group08" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/SysTick.d_raw" --obj_directory="inc"  "../inc/SysTick.c"
+"../inc/SysTick.c", line 75: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../inc/SysTick.c"
+ 
+Building file: "../inc/motor.c"
+Invoking: ARM Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/part1_group08" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/motor.d_raw" --obj_directory="inc"  "../inc/motor.c"
+"../inc/motor.c", line 75: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../inc/motor.c", line 122: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../inc/motor.c", line 169: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../inc/motor.c", line 217: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+Finished building: "../inc/motor.c"
+ 
+Building target: "part1_group08.out"
+Invoking: ARM Linker
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"part1_group08.map" --heap_size=1024 --stack_size=512 -i"C:/TI/ccs/ccsv8/ccs_base/arm/include" -i"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" -i"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="part1_group08_linkInfo.xml" --rom_model -o "part1_group08.out" "./Part1_Interrupt_bumsw_motor.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "./inc/Clock.obj" "./inc/CortexM.obj" "./inc/SysTick.obj" "./inc/motor.obj" "../msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "part1_group08.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project part1_group08 ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Part1_Interrupt_bumsw_motor.c"
+Invoking: ARM Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/part1_group08" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Part1_Interrupt_bumsw_motor.d_raw"  "../Part1_Interrupt_bumsw_motor.c"
+"../Part1_Interrupt_bumsw_motor.c", line 91: warning #225-D: function "Port2_Output" declared implicitly
+"../Part1_Interrupt_bumsw_motor.c", line 94: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../Part1_Interrupt_bumsw_motor.c", line 409: warning #161-D: declaration is incompatible with previous "Port2_Output" (declared at line 91)
+"../Part1_Interrupt_bumsw_motor.c", line 434: warning #179-D: variable "status" was declared but never referenced
+Finished building: "../Part1_Interrupt_bumsw_motor.c"
+ 
+Building target: "part1_group08.out"
+Invoking: ARM Linker
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"part1_group08.map" --heap_size=1024 --stack_size=512 -i"C:/TI/ccs/ccsv8/ccs_base/arm/include" -i"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" -i"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="part1_group08_linkInfo.xml" --rom_model -o "part1_group08.out" "./Part1_Interrupt_bumsw_motor.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "./inc/Clock.obj" "./inc/CortexM.obj" "./inc/SysTick.obj" "./inc/motor.obj" "../msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "part1_group08.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project part1_group08 ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'part1_group08.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project part1_group08 ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'part1_group08.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project part1_group08 ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Part1_Interrupt_bumsw_motor.c"
+Invoking: ARM Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/part1_group08" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Part1_Interrupt_bumsw_motor.d_raw"  "../Part1_Interrupt_bumsw_motor.c"
+"../Part1_Interrupt_bumsw_motor.c", line 91: warning #225-D: function "Port2_Output" declared implicitly
+"../Part1_Interrupt_bumsw_motor.c", line 94: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../Part1_Interrupt_bumsw_motor.c", line 409: warning #161-D: declaration is incompatible with previous "Port2_Output" (declared at line 91)
+"../Part1_Interrupt_bumsw_motor.c", line 434: warning #179-D: variable "status" was declared but never referenced
+Finished building: "../Part1_Interrupt_bumsw_motor.c"
+ 
+Building target: "part1_group08.out"
+Invoking: ARM Linker
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"part1_group08.map" --heap_size=1024 --stack_size=512 -i"C:/TI/ccs/ccsv8/ccs_base/arm/include" -i"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" -i"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="part1_group08_linkInfo.xml" --rom_model -o "part1_group08.out" "./Part1_Interrupt_bumsw_motor.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "./inc/Clock.obj" "./inc/CortexM.obj" "./inc/SysTick.obj" "./inc/motor.obj" "../msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "part1_group08.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project part1_group08 ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'part1_group08.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project part1_group08 ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'part1_group08.out' is up to date.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project RTOSDemo ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "RTOSDemo.bin"  "RTOSDemo.out" 
+DEL /F "main.obj" "FreeRTOS_Source\croutine.obj" "FreeRTOS_Source\event_groups.obj" "FreeRTOS_Source\list.obj" "FreeRTOS_Source\queue.obj" "FreeRTOS_Source\stream_buffer.obj" "FreeRTOS_Source\tasks.obj" "FreeRTOS_Source\timers.obj" "FreeRTOS_Source\portable\CCS\ARM_CM4F\port.obj" "FreeRTOS_Source\portable\CCS\ARM_CM4F\portasm.obj" "FreeRTOS_Source\portable\MemMang\heap_4.obj" "MainProgram\main_program.obj" "driverlib\cpu.obj" "driverlib\cs.obj" "driverlib\flash.obj" "driverlib\fpu.obj" "driverlib\gpio.obj" "driverlib\interrupt.obj" "driverlib\pcm.obj" "driverlib\sysctl.obj" "driverlib\timer32.obj" "driverlib\uart.obj" "driverlib\wdt_a.obj" "inc\Clock.obj" "inc\CortexM.obj" "inc\SysTick.obj" "inc\bumpSwitch.obj" "inc\dcMotor.obj" "inc\outputLED.obj" "inc\songFile.obj" "system\CCS\msp432_startup_ccs.obj" "system\CCS\printf-stdarg.obj" "system\CCS\system_msp432p401r.obj" 
+DEL /F "main.d" "FreeRTOS_Source\croutine.d" "FreeRTOS_Source\event_groups.d" "FreeRTOS_Source\list.d" "FreeRTOS_Source\queue.d" "FreeRTOS_Source\stream_buffer.d" "FreeRTOS_Source\tasks.d" "FreeRTOS_Source\timers.d" "FreeRTOS_Source\portable\CCS\ARM_CM4F\port.d" "FreeRTOS_Source\portable\MemMang\heap_4.d" "MainProgram\main_program.d" "driverlib\cpu.d" "driverlib\cs.d" "driverlib\flash.d" "driverlib\fpu.d" "driverlib\gpio.d" "driverlib\interrupt.d" "driverlib\pcm.d" "driverlib\sysctl.d" "driverlib\timer32.d" "driverlib\uart.d" "driverlib\wdt_a.d" "inc\Clock.d" "inc\CortexM.d" "inc\SysTick.d" "inc\bumpSwitch.d" "inc\dcMotor.d" "inc\outputLED.d" "inc\songFile.d" "system\CCS\msp432_startup_ccs.d" "system\CCS\printf-stdarg.d" "system\CCS\system_msp432p401r.d" 
+DEL /F "FreeRTOS_Source\portable\CCS\ARM_CM4F\portasm.d" 
+Could Not Find E:\erts_ccs_workspace\RTOSDemo\Debug\FreeRTOS_Source\croutine.d
+Could Not Find E:\erts_ccs_workspace\RTOSDemo\Debug\FreeRTOS_Source\portable\CCS\ARM_CM4F\port.d
+Could Not Find E:\erts_ccs_workspace\RTOSDemo\Debug\FreeRTOS_Source\portable\MemMang\heap_4.d
+Could Not Find E:\erts_ccs_workspace\RTOSDemo\Debug\FreeRTOS_Source\portable\CCS\ARM_CM4F\portasm.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project RTOSDemo ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../main.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/croutine.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="FreeRTOS_Source/croutine.d_raw" --obj_directory="FreeRTOS_Source"  "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/croutine.c"
+Finished building: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/croutine.c"
+ 
+Building file: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/event_groups.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="FreeRTOS_Source/event_groups.d_raw" --obj_directory="FreeRTOS_Source"  "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/event_groups.c"
+Finished building: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/event_groups.c"
+ 
+Building file: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/list.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="FreeRTOS_Source/list.d_raw" --obj_directory="FreeRTOS_Source"  "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/list.c"
+Finished building: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/list.c"
+ 
+Building file: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/queue.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="FreeRTOS_Source/queue.d_raw" --obj_directory="FreeRTOS_Source"  "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/queue.c"
+Finished building: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/queue.c"
+ 
+Building file: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/stream_buffer.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="FreeRTOS_Source/stream_buffer.d_raw" --obj_directory="FreeRTOS_Source"  "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/stream_buffer.c"
+Finished building: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/stream_buffer.c"
+ 
+Building file: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/tasks.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="FreeRTOS_Source/tasks.d_raw" --obj_directory="FreeRTOS_Source"  "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/tasks.c"
+Finished building: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/tasks.c"
+ 
+Building file: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/timers.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="FreeRTOS_Source/timers.d_raw" --obj_directory="FreeRTOS_Source"  "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/timers.c"
+Finished building: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/timers.c"
+ 
+Building file: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F/port.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="FreeRTOS_Source/portable/CCS/ARM_CM4F/port.d_raw" --obj_directory="FreeRTOS_Source/portable/CCS/ARM_CM4F"  "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F/port.c"
+Finished building: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F/port.c"
+ 
+Building file: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F/portasm.asm"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="FreeRTOS_Source/portable/CCS/ARM_CM4F/portasm.d_raw" --obj_directory="FreeRTOS_Source/portable/CCS/ARM_CM4F"  "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F/portasm.asm"
+Finished building: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F/portasm.asm"
+ 
+Building file: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/MemMang/heap_4.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="FreeRTOS_Source/portable/MemMang/heap_4.d_raw" --obj_directory="FreeRTOS_Source/portable/MemMang"  "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/MemMang/heap_4.c"
+Finished building: "E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/MemMang/heap_4.c"
+ 
+Building file: "../MainProgram/main_program.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="MainProgram/main_program.d_raw" --obj_directory="MainProgram"  "../MainProgram/main_program.c"
+ 
+>> Compilation failure
+MainProgram/subdir_rules.mk:9: recipe for target 'MainProgram/main_program.obj' failed
+"../MainProgram/main_program.c", line 255: error #20: identifier "SW1IN" is undefined
+          if (SW1IN == 1) {
+              ^
+ 
+"../MainProgram/main_program.c", line 328: error #20: identifier "SW2IN" is undefined
+      while(!SW2IN){                  // Wait for SW2 switch
+             ^
+ 
+"../MainProgram/main_program.c", line 238: warning #179-D: function "Switch_Init" was declared but never referenced
+  static void Switch_Init(void){
+              ^
+ 
+"../MainProgram/main_program.c", line 248: warning #179-D: function "taskReadInputSwitch" was declared but never referenced
+  static void taskReadInputSwitch( void *pvParameters ){
+              ^
+ 
+2 errors detected in the compilation of "../MainProgram/main_program.c".
+gmake: *** [MainProgram/main_program.obj] Error 1
+Building file: "../driverlib/cpu.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="driverlib/cpu.d_raw" --obj_directory="driverlib"  "../driverlib/cpu.c"
+Finished building: "../driverlib/cpu.c"
+ 
+Building file: "../driverlib/cs.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="driverlib/cs.d_raw" --obj_directory="driverlib"  "../driverlib/cs.c"
+Finished building: "../driverlib/cs.c"
+ 
+Building file: "../driverlib/flash.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="driverlib/flash.d_raw" --obj_directory="driverlib"  "../driverlib/flash.c"
+Finished building: "../driverlib/flash.c"
+ 
+Building file: "../driverlib/fpu.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="driverlib/fpu.d_raw" --obj_directory="driverlib"  "../driverlib/fpu.c"
+Finished building: "../driverlib/fpu.c"
+ 
+Building file: "../driverlib/gpio.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="driverlib/gpio.d_raw" --obj_directory="driverlib"  "../driverlib/gpio.c"
+Finished building: "../driverlib/gpio.c"
+ 
+Building file: "../driverlib/interrupt.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="driverlib/interrupt.d_raw" --obj_directory="driverlib"  "../driverlib/interrupt.c"
+Finished building: "../driverlib/interrupt.c"
+ 
+Building file: "../driverlib/pcm.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="driverlib/pcm.d_raw" --obj_directory="driverlib"  "../driverlib/pcm.c"
+Finished building: "../driverlib/pcm.c"
+ 
+Building file: "../driverlib/sysctl.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="driverlib/sysctl.d_raw" --obj_directory="driverlib"  "../driverlib/sysctl.c"
+Finished building: "../driverlib/sysctl.c"
+ 
+Building file: "../driverlib/timer32.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="driverlib/timer32.d_raw" --obj_directory="driverlib"  "../driverlib/timer32.c"
+Finished building: "../driverlib/timer32.c"
+ 
+Building file: "../driverlib/uart.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="driverlib/uart.d_raw" --obj_directory="driverlib"  "../driverlib/uart.c"
+Finished building: "../driverlib/uart.c"
+ 
+Building file: "../driverlib/wdt_a.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="driverlib/wdt_a.d_raw" --obj_directory="driverlib"  "../driverlib/wdt_a.c"
+Finished building: "../driverlib/wdt_a.c"
+ 
+Building file: "../inc/Clock.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="inc/Clock.d_raw" --obj_directory="inc"  "../inc/Clock.c"
+Finished building: "../inc/Clock.c"
+ 
+Building file: "../inc/CortexM.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="inc/CortexM.d_raw" --obj_directory="inc"  "../inc/CortexM.c"
+Finished building: "../inc/CortexM.c"
+ 
+Building file: "../inc/SysTick.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="inc/SysTick.d_raw" --obj_directory="inc"  "../inc/SysTick.c"
+Finished building: "../inc/SysTick.c"
+ 
+Building file: "../inc/bumpSwitch.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="inc/bumpSwitch.d_raw" --obj_directory="inc"  "../inc/bumpSwitch.c"
+Finished building: "../inc/bumpSwitch.c"
+ 
+Building file: "../inc/dcMotor.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="inc/dcMotor.d_raw" --obj_directory="inc"  "../inc/dcMotor.c"
+Finished building: "../inc/dcMotor.c"
+ 
+Building file: "../inc/outputLED.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="inc/outputLED.d_raw" --obj_directory="inc"  "../inc/outputLED.c"
+"../inc/outputLED.c", line 86: warning #179-D: variable "xShortBlock" was declared but never referenced
+      static const TickType_t xShortBlock = pdMS_TO_TICKS( 300 );
+                              ^
+ 
+Finished building: "../inc/outputLED.c"
+ 
+Building file: "../inc/songFile.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="inc/songFile.d_raw" --obj_directory="inc"  "../inc/songFile.c"
+"../inc/songFile.c", line 107: warning #225-D: function "delay_us" declared implicitly
+          delay_us(delay);   //...for a semiperiod...
+          ^
+ 
+"../inc/songFile.c", line 111: warning #225-D: function "delay_ms" declared implicitly
+      delay_ms(delay_beep); //Add a little delay to separate the single notes
+      ^
+ 
+"../inc/songFile.c", line 130: warning #225-D: function "delay_ms" declared implicitly
+      delay_ms(150);
+      ^
+ 
+"../inc/songFile.c", line 222: warning #161-D: declaration is incompatible with previous "delay_ms" (declared at line 111)
+  void delay_ms(unsigned int ms )
+       ^
+ 
+"../inc/songFile.c", line 230: warning #161-D: declaration is incompatible with previous "delay_us" (declared at line 107)
+  void delay_us(unsigned int us )
+       ^
+ 
+Finished building: "../inc/songFile.c"
+ 
+Building file: "../system/CCS/msp432_startup_ccs.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="system/CCS/msp432_startup_ccs.d_raw" --obj_directory="system/CCS"  "../system/CCS/msp432_startup_ccs.c"
+Finished building: "../system/CCS/msp432_startup_ccs.c"
+ 
+Building file: "../system/CCS/printf-stdarg.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="system/CCS/printf-stdarg.d_raw" --obj_directory="system/CCS"  "../system/CCS/printf-stdarg.c"
+Finished building: "../system/CCS/printf-stdarg.c"
+ 
+Building file: "../system/CCS/system_msp432p401r.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="system/CCS/system_msp432p401r.d_raw" --obj_directory="system/CCS"  "../system/CCS/system_msp432p401r.c"
+Finished building: "../system/CCS/system_msp432p401r.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project RTOSDemo ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../MainProgram/main_program.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="MainProgram/main_program.d_raw" --obj_directory="MainProgram"  "../MainProgram/main_program.c"
+ 
+>> Compilation failure
+MainProgram/subdir_rules.mk:9: recipe for target 'MainProgram/main_program.obj' failed
+"../MainProgram/main_program.c", line 206: error #20: identifier "taskDisplayOutputLED" is undefined
+      xTaskCreate(    taskDisplayOutputLED,
+                      ^
+ 
+"../MainProgram/main_program.c", line 327: error #148: declaration is incompatible with "void taskPlaySong(void *)" (declared at line 83)
+  static void taskPlaySong(){
+              ^
+ 
+"../MainProgram/main_program.c", line 337: error #148: declaration is incompatible with "void taskBumpSwitch(void *)" (declared at line 81)
+  static void taskBumpSwitch(){
+              ^
+ 
+"../MainProgram/main_program.c", line 353: error #130-D: a block-scope function may only have extern storage class
+  static void taskDisplayOutputLED(){
+  ^
+ 
+"../MainProgram/main_program.c", line 353: error #66: expected a ";"
+  static void taskDisplayOutputLED(){
+                                    ^
+ 
+"../MainProgram/main_program.c", line 391: warning #12-D: parsing restarts here after previous syntax error
+      vTaskDelete(taskHandle_BlinkRedLED);
+                                         ^
+ 
+"../MainProgram/main_program.c", line 273: warning #179-D: function "Switch_Init" was declared but never referenced
+  static void Switch_Init(void){
+              ^
+ 
+"../MainProgram/main_program.c", line 79: warning #2120-D: static function "taskMasterThread" treated as extern because it was referenced but not defined
+  static void taskMasterThread( void *pvParameters );
+              ^
+ 
+"../MainProgram/main_program.c", line 353: warning #179-D: function "taskDisplayOutputLED" was declared but never referenced
+  static void taskDisplayOutputLED(){
+              ^
+ 
+5 errors detected in the compilation of "../MainProgram/main_program.c".
+gmake: *** [MainProgram/main_program.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project RTOSDemo ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../MainProgram/main_program.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="MainProgram/main_program.d_raw" --obj_directory="MainProgram"  "../MainProgram/main_program.c"
+ 
+>> Compilation failure
+MainProgram/subdir_rules.mk:9: recipe for target 'MainProgram/main_program.obj' failed
+"../MainProgram/main_program.c", line 206: error #20: identifier "taskDisplayOutputLED" is undefined
+      xTaskCreate(    taskDisplayOutputLED,
+                      ^
+ 
+"../MainProgram/main_program.c", line 327: error #148: declaration is incompatible with "void taskPlaySong(void *)" (declared at line 83)
+  static void taskPlaySong(){
+              ^
+ 
+"../MainProgram/main_program.c", line 337: error #148: declaration is incompatible with "void taskBumpSwitch(void *)" (declared at line 81)
+  static void taskBumpSwitch(){
+              ^
+ 
+"../MainProgram/main_program.c", line 353: error #130-D: a block-scope function may only have extern storage class
+  static void taskDisplayOutputLED(){
+  ^
+ 
+"../MainProgram/main_program.c", line 353: error #66: expected a ";"
+  static void taskDisplayOutputLED(){
+                                    ^
+ 
+"../MainProgram/main_program.c", line 391: warning #12-D: parsing restarts here after previous syntax error
+      vTaskDelete(taskHandle_BlinkRedLED);
+                                         ^
+ 
+"../MainProgram/main_program.c", line 273: warning #179-D: function "Switch_Init" was declared but never referenced
+  static void Switch_Init(void){
+              ^
+ 
+"../MainProgram/main_program.c", line 79: warning #2120-D: static function "taskMasterThread" treated as extern because it was referenced but not defined
+  static void taskMasterThread( void *pvParameters );
+              ^
+ 
+"../MainProgram/main_program.c", line 353: warning #179-D: function "taskDisplayOutputLED" was declared but never referenced
+  static void taskDisplayOutputLED(){
+              ^
+ 
+5 errors detected in the compilation of "../MainProgram/main_program.c".
+gmake: *** [MainProgram/main_program.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project RTOSDemo ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../MainProgram/main_program.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="MainProgram/main_program.d_raw" --obj_directory="MainProgram"  "../MainProgram/main_program.c"
+ 
+>> Compilation failure
+MainProgram/subdir_rules.mk:9: recipe for target 'MainProgram/main_program.obj' failed
+"../MainProgram/main_program.c", line 206: error #20: identifier "taskDisplayOutputLED" is undefined
+      xTaskCreate(    taskDisplayOutputLED,
+                      ^
+ 
+"../MainProgram/main_program.c", line 327: error #148: declaration is incompatible with "void taskPlaySong(void *)" (declared at line 83)
+  static void taskPlaySong(){
+              ^
+ 
+"../MainProgram/main_program.c", line 337: error #148: declaration is incompatible with "void taskBumpSwitch(void *)" (declared at line 81)
+  static void taskBumpSwitch(){
+              ^
+ 
+"../MainProgram/main_program.c", line 353: error #130-D: a block-scope function may only have extern storage class
+  static void taskDisplayOutputLED(){
+  ^
+ 
+"../MainProgram/main_program.c", line 353: error #66: expected a ";"
+  static void taskDisplayOutputLED(){
+                                    ^
+ 
+"../MainProgram/main_program.c", line 391: warning #12-D: parsing restarts here after previous syntax error
+      vTaskDelete(taskHandle_BlinkRedLED);
+                                         ^
+ 
+"../MainProgram/main_program.c", line 273: warning #179-D: function "Switch_Init" was declared but never referenced
+  static void Switch_Init(void){
+              ^
+ 
+"../MainProgram/main_program.c", line 79: warning #2120-D: static function "taskMasterThread" treated as extern because it was referenced but not defined
+  static void taskMasterThread( void *pvParameters );
+              ^
+ 
+"../MainProgram/main_program.c", line 353: warning #179-D: function "taskDisplayOutputLED" was declared but never referenced
+  static void taskDisplayOutputLED(){
+              ^
+ 
+5 errors detected in the compilation of "../MainProgram/main_program.c".
+gmake: *** [MainProgram/main_program.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project RTOSDemo ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../MainProgram/main_program.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="MainProgram/main_program.d_raw" --obj_directory="MainProgram"  "../MainProgram/main_program.c"
+ 
+>> Compilation failure
+MainProgram/subdir_rules.mk:9: recipe for target 'MainProgram/main_program.obj' failed
+"../MainProgram/main_program.c", line 206: error #20: identifier "taskDisplayOutputLED" is undefined
+      xTaskCreate(    taskDisplayOutputLED,
+                      ^
+ 
+"../MainProgram/main_program.c", line 327: error #148: declaration is incompatible with "void taskPlaySong(void *)" (declared at line 83)
+  static void taskPlaySong(){
+              ^
+ 
+"../MainProgram/main_program.c", line 337: error #148: declaration is incompatible with "void taskBumpSwitch(void *)" (declared at line 81)
+  static void taskBumpSwitch(){
+              ^
+ 
+"../MainProgram/main_program.c", line 353: error #130-D: a block-scope function may only have extern storage class
+  static void taskDisplayOutputLED(){
+  ^
+ 
+"../MainProgram/main_program.c", line 353: error #66: expected a ";"
+  static void taskDisplayOutputLED(){
+                                    ^
+ 
+"../MainProgram/main_program.c", line 391: warning #12-D: parsing restarts here after previous syntax error
+      vTaskDelete(taskHandle_BlinkRedLED);
+                                         ^
+ 
+"../MainProgram/main_program.c", line 273: warning #179-D: function "Switch_Init" was declared but never referenced
+  static void Switch_Init(void){
+              ^
+ 
+"../MainProgram/main_program.c", line 79: warning #2120-D: static function "taskMasterThread" treated as extern because it was referenced but not defined
+  static void taskMasterThread( void *pvParameters );
+              ^
+ 
+"../MainProgram/main_program.c", line 353: warning #179-D: function "taskDisplayOutputLED" was declared but never referenced
+  static void taskDisplayOutputLED(){
+              ^
+ 
+5 errors detected in the compilation of "../MainProgram/main_program.c".
+gmake: *** [MainProgram/main_program.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project RTOSDemo ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../MainProgram/main_program.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="MainProgram/main_program.d_raw" --obj_directory="MainProgram"  "../MainProgram/main_program.c"
+ 
+>> Compilation failure
+MainProgram/subdir_rules.mk:9: recipe for target 'MainProgram/main_program.obj' failed
+"../MainProgram/main_program.c", line 206: error #20: identifier "taskDisplayOutputLED" is undefined
+      xTaskCreate(    taskDisplayOutputLED,
+                      ^
+ 
+"../MainProgram/main_program.c", line 337: error #148: declaration is incompatible with "void taskBumpSwitch(void *)" (declared at line 81)
+  static void taskBumpSwitch(){
+              ^
+ 
+"../MainProgram/main_program.c", line 353: error #130-D: a block-scope function may only have extern storage class
+  static void taskDisplayOutputLED(){
+  ^
+ 
+"../MainProgram/main_program.c", line 353: error #66: expected a ";"
+  static void taskDisplayOutputLED(){
+                                    ^
+ 
+"../MainProgram/main_program.c", line 391: warning #12-D: parsing restarts here after previous syntax error
+      vTaskDelete(taskHandle_BlinkRedLED);
+                                         ^
+ 
+"../MainProgram/main_program.c", line 273: warning #179-D: function "Switch_Init" was declared but never referenced
+  static void Switch_Init(void){
+              ^
+ 
+"../MainProgram/main_program.c", line 79: warning #2120-D: static function "taskMasterThread" treated as extern because it was referenced but not defined
+  static void taskMasterThread( void *pvParameters );
+              ^
+ 
+"../MainProgram/main_program.c", line 353: warning #179-D: function "taskDisplayOutputLED" was declared but never referenced
+  static void taskDisplayOutputLED(){
+              ^
+ 
+4 errors detected in the compilation of "../MainProgram/main_program.c".
+gmake: *** [MainProgram/main_program.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project RTOSDemo ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../MainProgram/main_program.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="MainProgram/main_program.d_raw" --obj_directory="MainProgram"  "../MainProgram/main_program.c"
+ 
+>> Compilation failure
+MainProgram/subdir_rules.mk:9: recipe for target 'MainProgram/main_program.obj' failed
+"../MainProgram/main_program.c", line 206: error #20: identifier "taskDisplayOutputLED" is undefined
+      xTaskCreate(    taskDisplayOutputLED,
+                      ^
+ 
+"../MainProgram/main_program.c", line 353: error #130-D: a block-scope function may only have extern storage class
+  static void taskDisplayOutputLED(){
+  ^
+ 
+"../MainProgram/main_program.c", line 353: error #66: expected a ";"
+  static void taskDisplayOutputLED(){
+                                    ^
+ 
+"../MainProgram/main_program.c", line 391: warning #12-D: parsing restarts here after previous syntax error
+      vTaskDelete(taskHandle_BlinkRedLED);
+                                         ^
+ 
+"../MainProgram/main_program.c", line 273: warning #179-D: function "Switch_Init" was declared but never referenced
+  static void Switch_Init(void){
+              ^
+ 
+"../MainProgram/main_program.c", line 79: warning #2120-D: static function "taskMasterThread" treated as extern because it was referenced but not defined
+  static void taskMasterThread( void *pvParameters );
+              ^
+ 
+"../MainProgram/main_program.c", line 353: warning #179-D: function "taskDisplayOutputLED" was declared but never referenced
+  static void taskDisplayOutputLED(){
+              ^
+ 
+3 errors detected in the compilation of "../MainProgram/main_program.c".
+gmake: *** [MainProgram/main_program.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project RTOSDemo ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../MainProgram/main_program.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="MainProgram/main_program.d_raw" --obj_directory="MainProgram"  "../MainProgram/main_program.c"
+ 
+>> Compilation failure
+MainProgram/subdir_rules.mk:9: recipe for target 'MainProgram/main_program.obj' failed
+"../MainProgram/main_program.c", line 206: error #20: identifier "taskDisplayOutputLED" is undefined
+      xTaskCreate(    taskDisplayOutputLED,
+                      ^
+ 
+"../MainProgram/main_program.c", line 352: error #130-D: a block-scope function may only have extern storage class
+  static void taskDisplayOutputLED( void *pvParameters ){
+  ^
+ 
+"../MainProgram/main_program.c", line 352: error #66: expected a ";"
+  static void taskDisplayOutputLED( void *pvParameters ){
+                                                        ^
+ 
+"../MainProgram/main_program.c", line 390: warning #12-D: parsing restarts here after previous syntax error
+      vTaskDelete(taskHandle_BlinkRedLED);
+                                         ^
+ 
+"../MainProgram/main_program.c", line 273: warning #179-D: function "Switch_Init" was declared but never referenced
+  static void Switch_Init(void){
+              ^
+ 
+"../MainProgram/main_program.c", line 79: warning #2120-D: static function "taskMasterThread" treated as extern because it was referenced but not defined
+  static void taskMasterThread( void *pvParameters );
+              ^
+ 
+"../MainProgram/main_program.c", line 352: warning #179-D: function "taskDisplayOutputLED" was declared but never referenced
+  static void taskDisplayOutputLED( void *pvParameters ){
+              ^
+ 
+3 errors detected in the compilation of "../MainProgram/main_program.c".
+gmake: *** [MainProgram/main_program.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project RTOSDemo ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../MainProgram/main_program.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="MainProgram/main_program.d_raw" --obj_directory="MainProgram"  "../MainProgram/main_program.c"
+ 
+>> Compilation failure
+MainProgram/subdir_rules.mk:9: recipe for target 'MainProgram/main_program.obj' failed
+"../MainProgram/main_program.c", line 206: error #20: identifier "taskDisplayOutputLED" is undefined
+      xTaskCreate(    taskDisplayOutputLED,
+                      ^
+ 
+"../MainProgram/main_program.c", line 353: error #130-D: a block-scope function may only have extern storage class
+  static void taskDisplayOutputLED (void *pvParameters){
+  ^
+ 
+"../MainProgram/main_program.c", line 353: error #66: expected a ";"
+  static void taskDisplayOutputLED (void *pvParameters){
+                                                       ^
+ 
+"../MainProgram/main_program.c", line 391: warning #12-D: parsing restarts here after previous syntax error
+      vTaskDelete(taskHandle_BlinkRedLED);
+                                         ^
+ 
+"../MainProgram/main_program.c", line 273: warning #179-D: function "Switch_Init" was declared but never referenced
+  static void Switch_Init(void){
+              ^
+ 
+"../MainProgram/main_program.c", line 79: warning #2120-D: static function "taskMasterThread" treated as extern because it was referenced but not defined
+  static void taskMasterThread( void *pvParameters );
+              ^
+ 
+"../MainProgram/main_program.c", line 353: warning #179-D: function "taskDisplayOutputLED" was declared but never referenced
+  static void taskDisplayOutputLED (void *pvParameters){
+              ^
+ 
+3 errors detected in the compilation of "../MainProgram/main_program.c".
+gmake: *** [MainProgram/main_program.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project RTOSDemo ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../MainProgram/main_program.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="MainProgram/main_program.d_raw" --obj_directory="MainProgram"  "../MainProgram/main_program.c"
+ 
+>> Compilation failure
+MainProgram/subdir_rules.mk:9: recipe for target 'MainProgram/main_program.obj' failed
+"../MainProgram/main_program.c", line 206: error #20: identifier "taskDisplayOutputLED" is undefined
+      xTaskCreate(    taskDisplayOutputLED,
+                      ^
+ 
+"../MainProgram/main_program.c", line 273: warning #179-D: function "Switch_Init" was declared but never referenced
+  static void Switch_Init(void){
+              ^
+ 
+"../MainProgram/main_program.c", line 353: warning #179-D: function "taskDisplayOutputLED" was declared but never referenced
+  static void taskDisplayOutputLED (void *pvParameters){
+              ^
+ 
+1 error detected in the compilation of "../MainProgram/main_program.c".
+gmake: *** [MainProgram/main_program.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project RTOSDemo ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../MainProgram/main_program.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="MainProgram/main_program.d_raw" --obj_directory="MainProgram"  "../MainProgram/main_program.c"
+"../MainProgram/main_program.c", line 275: warning #179-D: function "Switch_Init" was declared but never referenced
+  static void Switch_Init(void){
+              ^
+ 
+Finished building: "../MainProgram/main_program.c"
+ 
+Building target: "RTOSDemo.out"
+Invoking: MSP432 Linker
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on -z -m"RTOSDemo.map" --stack_size=800 --heap_size=0 -i"C:/TI/ccs/ccsv8/ccs_base/arm/include" -i"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" -i"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="RTOSDemo_linkInfo.xml" --rom_model --unused_section_elimination=on -o "RTOSDemo.out" "./main.obj" "./FreeRTOS_Source/croutine.obj" "./FreeRTOS_Source/event_groups.obj" "./FreeRTOS_Source/list.obj" "./FreeRTOS_Source/queue.obj" "./FreeRTOS_Source/stream_buffer.obj" "./FreeRTOS_Source/tasks.obj" "./FreeRTOS_Source/timers.obj" "./FreeRTOS_Source/portable/CCS/ARM_CM4F/port.obj" "./FreeRTOS_Source/portable/CCS/ARM_CM4F/portasm.obj" "./FreeRTOS_Source/portable/MemMang/heap_4.obj" "./MainProgram/main_program.obj" "./driverlib/cpu.obj" "./driverlib/cs.obj" "./driverlib/flash.obj" "./driverlib/fpu.obj" "./driverlib/gpio.obj" "./driverlib/interrupt.obj" "./driverlib/pcm.obj" "./driverlib/sysctl.obj" "./driverlib/timer32.obj" "./driverlib/uart.obj" "./driverlib/wdt_a.obj" "./inc/Clock.obj" "./inc/CortexM.obj" "./inc/SysTick.obj" "./inc/bumpSwitch.obj" "./inc/dcMotor.obj" "./inc/outputLED.obj" "./inc/songFile.obj" "./system/CCS/msp432_startup_ccs.obj" "./system/CCS/printf-stdarg.obj" "./system/CCS/system_msp432p401r.obj" "../system/CCS/msp432p401r.cmd"  -llibc.a 
+<Linking>
+Finished building target: "RTOSDemo.out"
+ 
+C:/TI/ccs/ccsv8/utils/tiobj2bin/tiobj2bin RTOSDemo.out RTOSDemo.bin C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armofd C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armhex C:/TI/ccs/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project RTOSDemo ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project RTOSDemo ****
+
+"C:\\TI\\ccs\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../MainProgram/main_program.c"
+Invoking: MSP432 Compiler
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib/inc" --include_path="E:/erts_ccs_workspace/RTOSDemo/driverlib" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/include" --include_path="E:/ERTS_34030_sw_part_2/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --include_path="C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/" --include_path="C:/TI/ccs/ccsv8/ccs_base/arm/include/CMSIS" --include_path="E:/erts_ccs_workspace/RTOSDemo" -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on --preproc_with_compile --preproc_dependency="MainProgram/main_program.d_raw" --obj_directory="MainProgram"  "../MainProgram/main_program.c"
+"../MainProgram/main_program.c", line 275: warning #179-D: function "Switch_Init" was declared but never referenced
+  static void Switch_Init(void){
+              ^
+ 
+Finished building: "../MainProgram/main_program.c"
+ 
+Building target: "RTOSDemo.out"
+Invoking: MSP432 Linker
+"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O0 --opt_for_speed=2 -g --gcc --define=__MSP432P401R__ --define=USE_CMSIS_REGISTER_FORMAT=1 --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --verbose_diagnostics --gen_func_subsections=on -z -m"RTOSDemo.map" --stack_size=800 --heap_size=0 -i"C:/TI/ccs/ccsv8/ccs_base/arm/include" -i"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" -i"C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="RTOSDemo_linkInfo.xml" --rom_model --unused_section_elimination=on -o "RTOSDemo.out" "./main.obj" "./FreeRTOS_Source/croutine.obj" "./FreeRTOS_Source/event_groups.obj" "./FreeRTOS_Source/list.obj" "./FreeRTOS_Source/queue.obj" "./FreeRTOS_Source/stream_buffer.obj" "./FreeRTOS_Source/tasks.obj" "./FreeRTOS_Source/timers.obj" "./FreeRTOS_Source/portable/CCS/ARM_CM4F/port.obj" "./FreeRTOS_Source/portable/CCS/ARM_CM4F/portasm.obj" "./FreeRTOS_Source/portable/MemMang/heap_4.obj" "./MainProgram/main_program.obj" "./driverlib/cpu.obj" "./driverlib/cs.obj" "./driverlib/flash.obj" "./driverlib/fpu.obj" "./driverlib/gpio.obj" "./driverlib/interrupt.obj" "./driverlib/pcm.obj" "./driverlib/sysctl.obj" "./driverlib/timer32.obj" "./driverlib/uart.obj" "./driverlib/wdt_a.obj" "./inc/Clock.obj" "./inc/CortexM.obj" "./inc/SysTick.obj" "./inc/bumpSwitch.obj" "./inc/dcMotor.obj" "./inc/outputLED.obj" "./inc/songFile.obj" "./system/CCS/msp432_startup_ccs.obj" "./system/CCS/printf-stdarg.obj" "./system/CCS/system_msp432p401r.obj" "../system/CCS/msp432p401r.cmd"  -llibc.a 
+<Linking>
+Finished building target: "RTOSDemo.out"
+ 
+C:/TI/ccs/ccsv8/utils/tiobj2bin/tiobj2bin RTOSDemo.out RTOSDemo.bin C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armofd C:/TI/ccs/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armhex C:/TI/ccs/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****

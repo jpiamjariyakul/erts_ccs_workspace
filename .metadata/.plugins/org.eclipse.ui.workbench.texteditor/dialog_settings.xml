@@ -2,23 +2,27 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="status" key="selection"/>
+		<item value="" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="reset"/>
+			<item value="taskMasterThread"/>
+			<item value="taskBumpSwitch"/>
+			<item value="Bump_Read_Input"/>
+			<item value="outputLED_response"/>
+			<item value="uint8_t"/>
+			<item value="bumpSwitch_status"/>
+			<item value="output"/>
+			<item value="taskHandle_PlaySong"/>
+			<item value="define"/>
+			<item value="SW1IN"/>
 			<item value="status"/>
 			<item value="break"/>
 			<item value="__no_operation"/>
 			<item value="systick"/>
-			<item value="sys"/>
-			<item value="IV"/>
-			<item value="0xED"/>
-			<item value="~0xED"/>
-			<item value="SEL0"/>
-			<item value="SW1IN"/>
-			<item value="sw1"/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>

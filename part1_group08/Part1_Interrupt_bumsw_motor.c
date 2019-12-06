@@ -106,7 +106,6 @@ void PORT4_IRQHandler(void) {
     // (*NOTE: in this code only bump switch 3 has been calculated,
     //         please figure out the other bump switches)
     switch (status) {
-
     case 0x02: // Bump switch 1
         if (mode_current == 2) {
             // Change the coloured LED into green (backward)
@@ -451,6 +450,15 @@ int main(void) {
     /*
      if (SW1IN == 1){
      mode = 1
+     switch_isSelected = 1 // defines initial switch press
+         while (1){
+             if (SW1IN == 1){
+
+             }
+         }
+         while (1){
+             if
+         }
      }
      else if (SW2IN == 1){
      mode = 2
@@ -458,6 +466,7 @@ int main(void) {
      */
 
 /*
+    // Polling mode
     if (SW1IN == 1){
         mode_current = 1;
         DisableInterrupts();
@@ -503,6 +512,7 @@ int main(void) {
     }
 */
 
+    // Interrupt Mode
     if (SW1IN == 1){
         mode_current = 1;
         EnableInterrupts();
@@ -536,5 +546,4 @@ int main(void) {
             Motor_ForwardSimple(500, 100);
         }
     }
-
 }
